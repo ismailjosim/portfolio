@@ -2,7 +2,8 @@ import React from 'react';
 import me from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import { VscFolderLibrary } from 'react-icons/vsc';
+import '../Styles/About.css'
 
 const About = () => {
     return (
@@ -11,7 +12,9 @@ const About = () => {
             <h2>About Me</h2>
             <div className="container about_container">
                 <div className="about_me">
-                    <img src={me} alt="" />
+                    <div className="about_me_image">
+                        <img src={me} alt="" />
+                    </div>
                 </div>
 
                 <div className="about_content">
