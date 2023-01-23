@@ -8,7 +8,7 @@ import '../Styles/About.css'
 const About = () => {
     return (
         <section id='about' className='section_wrapper'>
-            <h3>Get To Know</h3>
+            <h5>Get To Know</h5>
             <h2>About Me</h2>
             <div className="container about_container">
                 <div className="about_me">
