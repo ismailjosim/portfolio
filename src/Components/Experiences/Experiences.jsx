@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsPatchCheckFill } from 'react-icons/bs'
-
+import '../Styles/experiences.css'
 const Experiences = () => {
     const skillsFrontend = [
         {
@@ -54,9 +54,11 @@ const Experiences = () => {
                     <div className="experience_content">
                         {skillsFrontend.map((item, idx) => <article
                             key={idx} className="experience_details">
-                            <BsPatchCheckFill />
-                            <h4>{item.title}</h4>
-                            <small className='text-light'>{item.level}</small>
+                            <BsPatchCheckFill className='experience_details_icon' />
+                            <div className="details">
+                                <h4>{item.title}</h4>
+                                <small className='text-light'>{item.level}</small>
+                            </div>
                         </article>
                         )
 
@@ -68,9 +70,11 @@ const Experiences = () => {
                     <div className="experience_content">
                         {skillsBack.map((item, idx) => <article
                             key={idx} className="experience_details">
-                            <BsPatchCheckFill />
-                            <h4>{item.title}</h4>
-                            <small className='text-light'>{item.level}</small>
+                            <BsPatchCheckFill className='experience_details_icon' />
+                            <div className="details">
+                                <h4>{item.title}</h4>
+                                <small className='text-light'>{item.level}</small>
+                            </div>
                         </article>
                         )
 
