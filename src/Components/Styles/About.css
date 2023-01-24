@@ -85,11 +85,13 @@
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;
+        margin-top: 1.5rem;
     }
 
     .about_cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        margin-top: 2rem;
     }
 
     .about_content {
