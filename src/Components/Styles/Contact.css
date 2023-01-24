@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin-bottom: 10rem;
 }
 
 .contact_options {
@@ -36,6 +37,10 @@
     font-size: 0.8rem;
 }
 
+.contact_option h5 {
+    color: var(--color-light);
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -52,10 +57,6 @@ textarea {
     resize: none;
     color: var(--color-white);
 }
-
-
-
-
 
 
 
