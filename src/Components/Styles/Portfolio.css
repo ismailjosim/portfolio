@@ -1,14 +1,16 @@
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
 }
 
 .portfolio_item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    position: relative;
 }
 
 .portfolio_item:hover {
@@ -17,12 +19,36 @@
 }
 
 .portfolio_item_img {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     overflow: hidden;
+    max-height: 200px;
+}
+
+.portfolio_item_img img {
+    width: 100%;
 }
 
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.portfolio_tech {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+}
+
+.portfolio_tech button {
+    background-color: var(--color-primary);
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--color-white);
 }
 
 .cta {

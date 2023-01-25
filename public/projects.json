@@ -1,0 +1,86 @@
+[
+	{
+		"name": "Doctor portal (fullstack website)",
+		"picture": "https://i.ibb.co/PZx4qxd/Doctor-portal-fullstack-website-min.png",
+		"live": "https://doctor-portal-v1.web.app/",
+		"github": "https://github.com/ismailjosim/doctors-portal-client",
+		"tech": ["ReactJS", "Tailwind CSS", "MongoDB"]
+	},
+	{
+		"name": "Car Doctor (fullstack website)",
+		"picture": "https://i.ibb.co/khBCXqt/car-doctor-fullstack-website-min.png",
+		"live": "https://car-doctor-cc9e4.web.app/",
+		"github": "https://github.com/ismailjosim/genius-car-project",
+		"tech": ["ReactJS", "Tailwind CSS", "MongoDB"]
+	},
+	{
+		"name": "Eye-Care (fullstack website)",
+		"picture": "https://i.ibb.co/Mf6zRhT/Eye-Care-fullstack-website-min.png",
+		"live": "https://assignment-project-11-4c34d.web.app/",
+		"github": "https://github.com/ismailjosim/eye-care-client",
+		"tech": ["ReactJS", "NodeJS", "MongoDB"]
+	},
+	{
+		"name": "traveler (fullstack website)",
+		"picture": "https://i.ibb.co/BnZXhtW/traveler-fullstack-website-min.png",
+		"live": "https://travel-client-49757.web.app/",
+		"github": "https://github.com/ismailjosim/traveler-client",
+		"tech": ["ReactJS", "NodeJS", "MongoDB"]
+	},
+	{
+		"name": "Cake shop (Responsive website)",
+		"picture": "https://i.ibb.co/ssdsCBH/sweetshopp-min.png",
+		"live": "https://sweetshopp.netlify.app/",
+		"github": "https://github.com/ismailjosim/sweet-shop-client",
+		"tech": ["ReactJS", "NodeJS", "Tailwind CSS"]
+	},
+	{
+		"name": "Pig Game (JavaScript website)",
+		"picture": "https://i.ibb.co/tMRWHNG/pig-game-min.png",
+		"live": "https://pig-game-v-1.netlify.app/",
+		"github": "https://github.com/ismailjosim/pigame-javascript-dom-manupulation",
+		"tech": ["JavaScript"]
+	},
+	{
+		"name": "omnifood (responsive website)",
+		"picture": "https://i.ibb.co/VQG5p9F/omnifood-real-world-food-website-min.png",
+		"live": "https://omnifood-real-world-food-website.netlify.app/",
+		"github": "https://github.com/ismailjosim/omnifood-responsive-website",
+		"tech": ["JavaScript"]
+	},
+	{
+		"name": "PathShala (fullstack website)",
+		"picture": "https://i.ibb.co/TYQkjqQ/digital-learning-min.png",
+		"live": "https://digital-learning-ruddy.vercel.app/",
+		"github": "https://github.com/sayyed-ahsan/Digital-Learning",
+		"tech": ["NextJS", "MongoDB"]
+	},
+	{
+		"name": "company Website (Fully Responsive)",
+		"picture": "https://i.ibb.co/jf4xL0B/company-responsive-webssite-min.png",
+		"live": "https://company-responsive-webssite.netlify.app/",
+		"github": "https://github.com/ismailjosim/company-landing-website",
+		"tech": ["HTML5", "CSS3"]
+	},
+	{
+		"name": "food (responsive website)",
+		"picture": "https://i.ibb.co/gmJGPRW/food-complete-responsive-website-min.png",
+		"live": "https://food-complete-responsive-website.netlify.app/",
+		"github": "https://github.com/ismailjosim/food-complete-responsive-website",
+		"tech": ["JavaScript"]
+	},
+	{
+		"name": "Best Five Player responsive website",
+		"picture": "https://i.ibb.co/L8ZkQt4/best-five-players-min.png",
+		"live": "https://pf-best-five-players.netlify.app/",
+		"github": "https://github.com/ismailjosim/best-five-players-dom-manupulation",
+		"tech": ["JavaScript"]
+	},
+	{
+		"name": "bankist landing page (Fully Responsive)",
+		"picture": "https://i.ibb.co/85RJvLk/bankist-service-landing-page-min.png",
+		"live": "https://bankist-service-landing-page.netlify.app/",
+		"github": "https://github.com/ismailjosim/bankist-landing-page",
+		"tech": ["JavaScript"]
+	}
+]
