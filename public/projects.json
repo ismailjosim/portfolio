@@ -70,14 +70,14 @@
 		"tech": ["JavaScript"]
 	},
 	{
-		"name": "Best Five Player responsive website",
+		"name": "Best Five Player (responsive website)",
 		"picture": "https://i.ibb.co/L8ZkQt4/best-five-players-min.png",
 		"live": "https://pf-best-five-players.netlify.app/",
 		"github": "https://github.com/ismailjosim/best-five-players-dom-manupulation",
 		"tech": ["JavaScript"]
 	},
 	{
-		"name": "bankist landing page (Fully Responsive)",
+		"name": "bankist landing page (Responsive)",
 		"picture": "https://i.ibb.co/85RJvLk/bankist-service-landing-page-min.png",
 		"live": "https://bankist-service-landing-page.netlify.app/",
 		"github": "https://github.com/ismailjosim/bankist-landing-page",

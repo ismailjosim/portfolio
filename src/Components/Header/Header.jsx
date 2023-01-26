@@ -4,6 +4,8 @@ import me from '../../assets/me.png'
 import HeaderSocial from './HeaderSocial';
 import '../Styles/Header.css'
 import Typed from 'react-typed';
+import typing from '../../assets/typing.json'
+import Lottie from "lottie-react";
 
 const Header = () => {
     return (
@@ -26,8 +28,7 @@ const Header = () => {
                 <CTA />
 
                 <div className="me">
-                    <img src={me} alt="" />
-
+                    <Lottie animationData={typing} loop />
                 </div>
                 <a href="#contact" className='scroll_down'>Scroll Down</a>
                 <HeaderSocial />
