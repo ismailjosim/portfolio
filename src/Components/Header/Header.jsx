@@ -3,6 +3,7 @@ import CTA from './CTA';
 import me from '../../assets/me.png'
 import HeaderSocial from './HeaderSocial';
 import '../Styles/Header.css'
+import Typed from 'react-typed';
 
 const Header = () => {
     return (
@@ -10,10 +11,18 @@ const Header = () => {
             <div className="container header_container">
                 <h5>Hello, I'M</h5>
                 <h1> MD JASIM</h1>
-                <h5 className="text-light">Web Developer</h5>
-                <p className="header-description">
-                    High level experience in web design and development knowledge, producing quality work.
-                </p>
+                <Typed
+                    className='text-light'
+                    typeSpeed={90}
+                    backSpeed={50}
+                    loop
+                    strings={[
+                        'Frontend Developer ',
+                        'Backend Developer ',
+                        'MERN Stack Developer ',
+                        'Full Stack Developer ',
+                        'Content Creator ']}
+                />
                 <CTA />
 
                 <div className="me">
