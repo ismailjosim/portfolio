@@ -5,48 +5,40 @@ import "../Styles/services.css";
 const Services = () => {
     const serviceItems = [
         {
+            title: "Frontend Development",
+            points: [
+                "I develop the user interface.",
+                "Web page development.",
+                "Understanding of HTML, CSS, and JavaScript",
+                "Experience with JavaScript frameworks React",
+                "Familiarity with browser developer tools",
+                "Understanding of responsive design principles",
+                "Knowledge of cross-browser compatibility issues",
+                "Experience with version control systems such as Git",
+            ]
+        },
+        {
+            title: "Backend Development",
+            points: [
+                "Create Server From scratch with NodeJS and ExpressJS.",
+                "With In Database Management system - MongoDB.",
+                "Understanding of RESTful API design principles.",
+                "Knowledge of server-side caching,and performance.",
+                "MongoDB CRUD Operations.",
+                "Enable Data security With JWT(JSON Web Token).",
+                "Work with Environment Variables.",
+                "NodeJS login authentication."
+            ]
+        },
+        {
             title: "UI/UX Design",
             points: [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-            ]
-        },
-        {
-            title: "Web Development",
-            points: [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-            ]
-        },
-        {
-            title: "Content Creation",
-            points: [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet.",
+                "Familiarity with design software such as Adobe XD, Figma",
+                "Understanding of user-centered design principles and user experience (UX) design",
+                "Understanding of responsive design principles",
+                "Knowledge of typography, color theory, and layout principles",
+                "Experience with user research and testing methodologies",
+                "Strong attention to detail and ability to iterate on designs based on feedback.",
             ]
         },
     ]

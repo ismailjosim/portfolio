@@ -1,14 +1,13 @@
 import React from 'react';
 import me from '../../assets/me-about.jpg'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc';
+import { SiJavascript, SiMongodb } from 'react-icons/si'
+import { FaGitSquare } from 'react-icons/fa';
 import '../Styles/About.css'
 
 const About = () => {
     return (
         <section id='about' className='section_wrapper'>
-            <h5>Get To Know</h5>
+            <h5>My Introduction</h5>
             <h2>About Me</h2>
             <div className="container about_container">
                 <div className="about_me">
@@ -20,23 +19,23 @@ const About = () => {
                 <div className="about_content">
                     <div className="about_cards">
                         <article className="about_card">
-                            <FaAward className='about_icon' />
-                            <h4>Experience</h4>
-                            <small>3+ years</small>
+                            <SiJavascript className='about_icon' />
+                            <h4>Frontend</h4>
+                            <small>30+ Projects</small>
                         </article>
                         <article className="about_card">
-                            <FiUsers className='about_icon' />
-                            <h4>Clients</h4>
-                            <small>200+ Worldwide</small>
+                            <SiMongodb className='about_icon' />
+                            <h4>Fullstack</h4>
+                            <small>10+ Projects</small>
                         </article>
                         <article className="about_card">
-                            <VscFolderLibrary className='about_icon' />
-                            <h4>Projects</h4>
-                            <small>70+ Completed Projects</small>
+                            <FaGitSquare className='about_icon' />
+                            <h4>Github</h4>
+                            <small>76+ Projects</small>
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto assumenda ea culpa numquam deleniti cupiditate dolor odit eius! Quasi voluptatibus minus aperiam reiciendis facere, optio ratione itaque rerum. Accusamus, ut!
+                        Web developer, with extensive knowledge and more than 3 years of experience, working in web technologies and Ui / Ux design, delivering quality work.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

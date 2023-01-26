@@ -8,9 +8,12 @@ const Header = () => {
     return (
         <header id='#'>
             <div className="container header_container">
-                <h5>Hello I'm</h5>
-                <h1>ISMAIL</h1>
-                <h5 className="text-light">Full Stack developer</h5>
+                <h5>Hello, I'M</h5>
+                <h1> MD JASIM</h1>
+                <h5 className="text-light">Web Developer</h5>
+                <p className="header-description">
+                    High level experience in web design and development knowledge, producing quality work.
+                </p>
                 <CTA />
 
                 <div className="me">
