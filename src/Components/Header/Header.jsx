@@ -15,20 +15,20 @@ const Header = () => {
                 <h1> MD JASIM</h1>
                 <Typed
                     className='text-light'
-                    typeSpeed={90}
-                    backSpeed={50}
+                    typeSpeed={ 90 }
+                    backSpeed={ 50 }
                     loop
-                    strings={[
+                    strings={ [
                         'Frontend Developer ',
                         'Backend Developer ',
                         'MERN Stack Developer ',
                         'Full Stack Developer ',
-                        'Content Creator ']}
+                        'Content Creator '] }
                 />
                 <CTA />
 
                 <div className="me">
-                    <Lottie animationData={typing} loop />
+                    <Lottie animationData={ typing } loop />
                 </div>
                 <a href="#contact" className='scroll_down'>Scroll Down</a>
                 <HeaderSocial />

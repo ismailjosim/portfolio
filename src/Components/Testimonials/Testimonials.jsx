@@ -45,35 +45,31 @@ const data = [
 
 
 const Testimonials = () => {
-
-
-
-
     return (
         <section id='testimonials' className='section_wrapper'>
             <h5>Review From Clients</h5>
             <h2>Testimonials</h2>
             <Swiper className="container testimonials_container"
-                modules={[Pagination]}
+                modules={ [Pagination] }
                 navigation
-                spaceBetween={40}
-                slidesPerView={1}
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
+                spaceBetween={ 40 }
+                slidesPerView={ 1 }
+                pagination={ { clickable: true } }
+                scrollbar={ { draggable: true } }
                 autoplay
             >
-                {data.map((item, idx) => {
+                { data.map((item, idx) => {
                     const { picture, name, review } = item;
-                    return <SwiperSlide key={idx} className='testimonials'>
+                    return <SwiperSlide key={ idx } className='testimonials'>
                         <div className="client_avatar">
-                            <img src={picture} alt="" />
+                            <img src={ picture } alt="" />
                         </div>
                         <div className="client_content">
-                            <h5 className='client_name'>{name}</h5>
-                            <small className="client_review">{review}</small>
+                            <h5 className='client_name'>{ name }</h5>
+                            <small className="client_review">{ review }</small>
                         </div>
                     </SwiperSlide>
-                })}
+                }) }
 
             </Swiper>
         </section>

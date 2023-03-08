@@ -10,36 +10,36 @@ const Nav = () => {
     return (
         <nav>
             <a
-                className={active === "#" ? 'active' : ''} href="#"
-                onClick={() => setActive("#")}
+                className={ active === "#" ? 'active' : '' } href="#"
+                onClick={ () => setActive("#") }
             >
                 <AiOutlineHome />
             </a>
             <a
                 href="#about"
-                onClick={() => setActive("#about")}
-                className={active === "#about" ? 'active' : ''}
+                onClick={ () => setActive("#about") }
+                className={ active === "#about" ? 'active' : '' }
             >
                 <AiOutlineUser />
             </a>
             <a
                 href="#experiences"
-                onClick={() => setActive("#experiences")}
-                className={active === "#experiences" ? 'active' : ''}
+                onClick={ () => setActive("#experiences") }
+                className={ active === "#experiences" ? 'active' : '' }
             >
                 <BiBook />
             </a>
             <a
                 href="#services"
-                onClick={() => setActive("#services")}
-                className={active === "#services" ? 'active' : ''}
+                onClick={ () => setActive("#services") }
+                className={ active === "#services" ? 'active' : '' }
             >
                 <RiServiceLine />
             </a>
             <a
                 href="#contact"
-                onClick={() => setActive("#contact")}
-                className={active === "#contact" ? 'active' : ''}
+                onClick={ () => setActive("#contact") }
+                className={ active === "#contact" ? 'active' : '' }
             >
                 <BiMessageSquareDetail />
             </a>

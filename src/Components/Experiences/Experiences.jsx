@@ -52,12 +52,12 @@ const Experiences = () => {
                 <div className="frontend_experience">
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
-                        {skillsFrontend.map((item, idx) => <article
-                            key={idx} className="experience_details">
+                        { skillsFrontend.map((item, idx) => <article
+                            key={ idx } className="experience_details">
                             <BsPatchCheckFill className='experience_details_icon' />
                             <div className="details">
-                                <h4>{item.title}</h4>
-                                <small className='text-light'>{item.level}</small>
+                                <h4>{ item.title }</h4>
+                                <small className='text-light'>{ item.level }</small>
                             </div>
                         </article>
                         )
@@ -68,12 +68,12 @@ const Experiences = () => {
                 <div className="backend_experience">
                     <h3>Backend Development</h3>
                     <div className="experience_content">
-                        {skillsBack.map((item, idx) => <article
-                            key={idx} className="experience_details">
+                        { skillsBack.map((item, idx) => <article
+                            key={ idx } className="experience_details">
                             <BsPatchCheckFill className='experience_details_icon' />
                             <div className="details">
-                                <h4>{item.title}</h4>
-                                <small className='text-light'>{item.level}</small>
+                                <h4>{ item.title }</h4>
+                                <small className='text-light'>{ item.level }</small>
                             </div>
                         </article>
                         )

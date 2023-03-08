@@ -37,20 +37,20 @@ const Contact = () => {
                     <article className="contact_option">
                         <MdOutlineEmail className='contact_option_icon' />
                         <h5>ismailjosim@yahoo.com</h5>
-                        <a target={'_blank'} href="mailto:ismailjosim@yahoo.com" rel="noreferrer">Send a message</a>
+                        <a target={ '_blank' } href="mailto:ismailjosim@yahoo.com" rel="noreferrer">Send a message</a>
                     </article>
                     <article className="contact_option">
                         <RiMessengerFill className='contact_option_icon' />
                         <h5>Messenger</h5>
-                        <a target={'_blank'} href="https://m.me/ismailjosim99" rel="noreferrer">Send a message</a>
+                        <a target={ '_blank' } href="https://m.me/ismailjosim99" rel="noreferrer">Send a message</a>
                     </article>
                     <article className="contact_option">
                         <BsWhatsapp className='contact_option_icon' />
                         <h5>whatsapp</h5>
-                        <a target={'_blank'} href="https://api.whatsapp.com/send?phone+8801715052808" rel="noreferrer">Send a message</a>
+                        <a target={ '_blank' } href="https://api.whatsapp.com/send?phone+8801715052808" rel="noreferrer">Send a message</a>
                     </article>
                 </div>
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={ form } onSubmit={ sendEmail }>
                     <input type="text" name='name' placeholder='Your Full Name' required />
                     <input type="email" name='email' placeholder='Your Email' required />
                     <textarea name='message' placeholder='Your Message' rows="7" required></textarea>

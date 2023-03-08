@@ -48,19 +48,19 @@ const Services = () => {
             <h5>What I Offer</h5>
             <h2>My Services</h2>
             <div className="container services_container">
-                {serviceItems.map((item, idx) => <div key={idx} className="service">
+                { serviceItems.map((item, idx) => <div key={ idx } className="service">
                     <div className="service_heading">
-                        <h3>{item.title}</h3>
+                        <h3>{ item.title }</h3>
                     </div>
                     <ul className="service_list">
-                        {item.points.map((point, idx) => <li key={idx}>
+                        { item.points.map((point, idx) => <li key={ idx }>
                             <BiCheck className='service_list_icon' />
-                            <p className="list_details">{point}</p>
+                            <p className="list_details">{ point }</p>
                         </li>
-                        )}
+                        ) }
                     </ul>
                 </div>
-                )}
+                ) }
             </div>
         </div>
     );
