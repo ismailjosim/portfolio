@@ -79,7 +79,7 @@ const Projects = () => {
                             </p>
                             <div className="stack">
                                 <p>React</p>
-                                <p>CSS</p>
+                                <p>Tailwind</p>
                             </div>
                             <div className="links">
                                 <a
