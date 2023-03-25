@@ -1,4 +1,6 @@
 import '../Styles/project.css'
+import { CiExport } from 'react-icons/ci'
+import { BsGithub } from 'react-icons/bs'
 
 const Projects = () => {
     const data = [
@@ -53,56 +55,55 @@ const Projects = () => {
     return (
         <section id="projects" className="project">
             <div className="container">
-                <div className="project-content">
-                    <p>portfolio</p>
-                    <h3>Each project is a unique piece of development 🧩</h3>
-                    <div className="projects-grid">
-                        <div className="pro pro__1 undefined">
-                            <div className="pro__img">
+
+                <div className="projects-grid">
+                    <div className="single_project project__1">
+                        <div className="project__img">
+                            <a
+                                target="_blank"
+                                href="https://car-rental-ten.vercel.app/"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    src="https://i.ibb.co/BnZXhtW/traveler-fullstack-website-min.png"
+                                    alt="website"
+                                />
+                            </a>
+                        </div>
+                        <div className="project-content">
+                            <h3 className='project_title'>Car Rental 🚗</h3>
+                            <p className='project_description'>
+                                A car rental website is an online platform that allows users to
+                                rent cars for personal or business use. The website provides an
+                                interface for searching, comparing, and reserving cars.
+                            </p>
+                            <div className="stack">
+                                <p>React</p>
+                                <p>CSS</p>
+                            </div>
+                            <div className="links">
+                                <a
+                                    target="_blank"
+                                    href="https://github.com/stefvndev/car-rental"
+                                    rel="noreferrer"
+                                >
+                                    Code <BsGithub />
+                                </a>
                                 <a
                                     target="_blank"
                                     href="https://car-rental-ten.vercel.app/"
                                     rel="noreferrer"
+                                    className='course_icon'
                                 >
-                                    <img
-                                        src="https://i.ibb.co/BnZXhtW/traveler-fullstack-website-min.png"
-                                        alt="website"
-                                    />
+                                    Live Demo
+                                    <CiExport />
                                 </a>
                             </div>
-                            <div className="pro__text">
-                                <h3>Car Rental 🚗</h3>
-                                <p>
-                                    A car rental website is an online platform that allows users to
-                                    rent cars for personal or business use. The website provides an
-                                    interface for searching, comparing, and reserving cars.
-                                </p>
-                                <div className="stack">
-                                    <p>React</p>
-                                    <p>SCSS</p>
-                                </div>
-                                <div className="links">
-                                    <a
-                                        target="_blank"
-                                        href="https://github.com/stefvndev/car-rental"
-                                        rel="noreferrer"
-                                    >
-                                        Code <i className="fa-brands fa-github" />
-                                    </a>
-                                    <a
-                                        target="_blank"
-                                        href="https://car-rental-ten.vercel.app/"
-                                        rel="noreferrer"
-                                    >
-                                        Live Demo
-                                        <i className="fa-solid fa-arrow-up-right-from-square link-icon" />
-                                    </a>
-                                </div>
-                            </div>
                         </div>
-
                     </div>
+
                 </div>
+
             </div>
         </section>
 
