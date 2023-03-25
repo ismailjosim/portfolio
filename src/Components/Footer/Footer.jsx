@@ -16,10 +16,10 @@ const Footer = () => {
                 <li><a href="#contact">contact</a></li>
             </ul>
             <div className="footer_socials">
-                <a href="https://facebook.com"><FaFacebookF /></a>
-                <a href="https://facebook.com"><FaInstagram /></a>
-                <a href="https://facebook.com"><FaTwitter /></a>
-                <a href="https://facebook.com"><FaLinkedinIn /></a>
+                <a target={ '_blank' } href="https://www.facebook.com/ismailjosim99" rel="noreferrer"><FaFacebookF /></a>
+                <a target={ '_blank' } href="#" rel="noreferrer"><FaInstagram /></a>
+                <a target={ '_blank' } href="https://twitter.com/ismail_josim" rel="noreferrer"><FaTwitter /></a>
+                <a target={ '_blank' } href="https://www.linkedin.com/in/ismailjosim/" rel="noreferrer"><FaLinkedinIn /></a>
             </div>
             <div className="footer_copyright">
                 <small>&copy; JASIM 2019-2023. All rights reserved.</small>

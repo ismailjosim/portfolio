@@ -1,8 +1,6 @@
-<div align='center'><img src='./src/assets/personal-logo.png'/></div>
+<div align='center'><img width="150" src='./src/assets/personal-logo.png'/></div>
 
 <h2>About the project</h2>
-
-  <p><b>Traveler</b> A Tours and Travel Landing Page</p>
 
 👉 Live Demo: <a target="_blank" href='https://ismailjosim.netlify.app/'>Personal Portfolio</a>
 
